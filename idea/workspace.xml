@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5cd03dd-9bd5-4d80-a6db-88889eddcc7e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/banking-api-documentation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/BankingServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/configuration/RegistrationTokenPurge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/controller/BankingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/controller/RegistrationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/dto/BankAccountDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/entity/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/entity/BankAccountRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/entity/RegistrationToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/exception/BankAccountException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/exception/RegistrationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/exception/RegistrationTokenException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/exception/TransactionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/properties/SchedulingProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/repository/BankAccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/repository/RegistrationTokenRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/request/DepositRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/request/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/request/RegistrationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/request/WithdrawalRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/security/PasswordEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/security/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/service/BankAccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/service/RegistrationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/service/RegistrationTokenService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/java/github/wozniak/bankingservice/utils/PasswordValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/test/java/github/wozniak/bankingservice/BankingServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/test/java/github/wozniak/bankingservice/controller/BankingControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/test/java/github/wozniak/bankingservice/service/BankAccountServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/banking-service/src/test/java/github/wozniak/bankingservice/utils/PasswordValidatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/flight-booking-docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/FlightBookingServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/entity/Flight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/entity/SeatingInformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/entity/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/exception/FlightNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/payload/AirportResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/payload/FlightResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/payload/PlaneResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/payload/RouteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/repository/FlightRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/repository/SeatingInformationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/security/WebSecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/service/FlightService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/service/SeatingInformationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/java/github/wozniak/flightbookingservice/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-booking-service/src/test/java/github/wozniak/flightbookingservice/FlightBookingServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/flight-tracking-documentation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/FlightTrackingServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/configuration/FlightComponentConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/configuration/RouteConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/configuration/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/controller/FlightController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/dto/AirportDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/dto/AirportSummaryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/dto/FlightDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/dto/FlightSummaryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/dto/FlightTimeTableDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/dto/PlaneDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/dto/PlaneSummaryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/dto/RouteDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/dto/RouteSummaryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/dto/TimeTableSummaryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/entity/Airport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/entity/Flight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/entity/Plane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/entity/Route.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/entity/ScheduledRoute.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/exception/AirportNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/exception/DateFormatException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/exception/FlightIdentifierException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/exception/FlightQueryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/exception/PlaneNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/exception/RouteGeneratorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/exception/RouteSchedulingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/helper/FlightCalendarCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/helper/RouteGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/model/FlightTimeTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/planning_algorithm/AirportNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/planning_algorithm/DijkstraAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/planning_algorithm/Edge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/planning_algorithm/FlightPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/planning_algorithm/FlightPathDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/planning_algorithm/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/planning_algorithm/NoFlightPathException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/planning_algorithm/PathGenerationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/planning_algorithm/PathGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/properties/AirportsList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/properties/PlaneList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/properties/SchedulingProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/repository/AirportRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/repository/FlightRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/repository/PlaneRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/repository/ScheduledRouteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/scheduler/FlightScheduler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/service/AirportService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/service/FlightService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/service/PlaneService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/service/ScheduledRouteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/java/github/wozniak/flighttrackingservice/utils/DateTimeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/resources/application-docker.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/test/java/github/wozniak/flighttrackingservice/FlightTrackingServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/test/java/github/wozniak/flighttrackingservice/configuration/RouteConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/test/java/github/wozniak/flighttrackingservice/entity/FlightTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/test/java/github/wozniak/flighttrackingservice/entity/RouteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/test/java/github/wozniak/flighttrackingservice/helper/FlightCalendarCreatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/test/java/github/wozniak/flighttrackingservice/helper/RouteGeneratorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/test/java/github/wozniak/flighttrackingservice/planning_algorithm/PathGeneratorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/test/java/github/wozniak/flighttrackingservice/properties/AirportsListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/test/java/github/wozniak/flighttrackingservice/properties/PlaneListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/test/java/github/wozniak/flighttrackingservice/service/FlightServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/test/java/github/wozniak/flighttrackingservice/service/PlaneServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flight-tracking-service/src/test/java/github/wozniak/flighttrackingservice/utils/DateTimeUtilsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/credits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/images/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/images/logo_resized.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/images/plane_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/styles/Index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/frontend/node_modules/@testing-library/jest-dom/package.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2aaUCcVjc59y7ykrOgENva8xHn7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "flight-booking-service",
+    "last_opened_file_path": "C:/Users/dipay/IdeaProjects/Garud-Airlines-Distributed-Reservation-AppEngine",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA Ultimate 2023.1.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dipay\IdeaProjects\Garud-Airlines-Distributed-Reservation-AppEngine\backend\flight-architecture-package\src\main\java\flightArchitecturePackage" />
+      <recent name="C:\Users\dipay\IdeaProjects\Garud-Airlines-Distributed-Reservation-AppEngine\backend\flight-architecture-package\src\main\java" />
+      <recent name="C:\Users\dipay\IdeaProjects\Garud-Airlines-Distributed-AppEngine\frontend\extras" />
+      <recent name="C:\Users\dipay\IdeaProjects\Garud-Airlines-Distributed-AppEngine\backend\banking-service-package\src\main\java\github\dipayan-code97\banking_service\banking_service_engine" />
+      <recent name="C:\Users\dipay\IdeaProjects\Garud-Airlines-Distributed-AppEngine\backend\flightConstruction\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5cd03dd-9bd5-4d80-a6db-88889eddcc7e" name="Changes" comment="" />
+      <created>1704556057243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704556057243</updated>
+      <workItem from="1704556062469" duration="49000" />
+      <workItem from="1704639936901" duration="14599000" />
+      <workItem from="1704657439776" duration="18886000" />
+      <workItem from="1704742721752" duration="2695000" />
+      <workItem from="1704754108447" duration="557000" />
+      <workItem from="1704771586468" duration="609000" />
+      <workItem from="1704772264758" duration="22000" />
+      <workItem from="1704772328589" duration="12000" />
+      <workItem from="1704772360018" duration="7000" />
+      <workItem from="1704772386847" duration="19735000" />
+      <workItem from="1704852491094" duration="16552000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
