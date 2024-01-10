@@ -1,0 +1,9 @@
+.idea/
+.mvn/
+Backend/main/resources/application.properties
+target/
+HELP.md
+MSFS-Flight-Generator.iml
+mvnw.cmd
+mvnw
+Frontend/.vscode/
