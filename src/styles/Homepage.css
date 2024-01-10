@@ -1,0 +1,191 @@
+:root {
+    --dark: #374151;
+    --darker: #1F2937;
+    --darkest: #111827;
+    --purple: #8B5CF6;
+    --light: #EEE;
+    --green: #3bd170;
+}
+
+.navbar-expand-lg {
+    background-image: none;
+    background-color: var(--darkest);
+}
+
+.navbar-right {
+    position: absolute;
+    right : 10;
+    top : 0;
+}
+
+body {
+    padding : 0;
+    margin : 0;
+}
+
+.body {
+    background-color: var(--darker);
+}
+
+.content-container {
+    width : 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.header-image-div {
+    position: relative;
+    background-color: none;
+    width : 100%;
+    height : 100%;
+}
+
+.main-image {
+    margin : 0;
+    width : 100%;
+    height : 95%;
+    object-fit: cover;
+    opacity: .5;
+}
+
+.heading-text {
+    position : absolute;
+    width : 80%;
+    top : 40%;
+    left : 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading-text h1 {
+    color : var(--light);
+    text-shadow: 6px 6px var(--darkest);
+    font-family: 'Century Gothic',sans-serif;
+    font-size : 60;
+}
+
+.heading-text hr {
+    background-color : var(--green)
+}
+
+.heading-text p {
+    text-shadow: 4px 4px var(--darkest);
+    color : var(--light);
+    font-family: 'Century Gothic', sans-serif;
+    font-size : 35;
+}
+
+hr {
+    background-color: var(--green);
+    width : 80%;
+}
+
+.card-title {
+    font-size: 30;
+    font-family: 'Garamond', sans-serif;
+    color : var(--light);
+}
+
+.card-info {
+    padding : 10px 30px 0px 30px;
+    font-size: 16;
+    font-family: 'Garamond', sans-serif;
+    color : var(--light);
+}
+
+.card-image {
+    margin : 10px;
+    border-radius: 5px;
+    width: 40%;
+    height : auto;
+}
+
+
+.explore-features-card {
+    width : 95%;
+    font-family: 'Imprint MT Shadow';
+    font-size: 60;
+    text-align: center;
+    color : var(--light);
+}
+
+.card-holder {
+    padding : 0;
+    margin : 0;
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+    width : 100%;
+    min-height : 100%;
+}
+
+.card-list {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin : 10px 10px 10px 20px;
+    padding : 20px 0px 10px 0px;
+    width: 95%;
+    height : auto;
+    border-radius: 5px;
+    border: 1px solid var(--dark);
+    border-width : 5px 0px 0px 0px;
+    border-color : var(--darkest);
+    color : var(--light);
+}
+
+.card-text-holder {
+    display: flex;
+    flex-direction: column;
+    width : 60%;
+}
+
+.card-text-holder h3 {
+    font-size: 48;
+    font-family: 'Garamond', sans-serif;
+}
+
+.card-list p {
+    padding : 0px 40px 0px 40px;
+    font-size: 24;
+    font-family: 'Garamond', sans-serif;
+}
+
+footer {
+    position:relative;
+    margin-top : 40px
+}
+
+@media only screen and (max-width : 500px){
+    .heading-text h1 {
+        font-size : 48;
+    }
+    .heading-text p {
+        font-size : 22;
+    }
+    .explore-features-card {
+        font-size: 48;
+    }
+    .card-image {
+        width : 80%;
+    }
+    .card-list {
+        flex-wrap: wrap;
+    }
+    .card-text-holder {
+        width : 80%;
+    }
+    .card-text-holder h3 {
+        font-size: 38;
+    }
+
+    .card-list p {
+        padding : 0px 40px 0px 40px;
+        font-size: 18;
+    }
+}
