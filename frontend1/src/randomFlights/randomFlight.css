@@ -1,0 +1,231 @@
+:root {
+    --dark: #374151;
+    --darker: #1F2937;
+    --darkest: #111827;
+    --purple: #8B5CF6;
+    --light: #EEE;
+    --green: #3bd170;
+}
+
+.navbar-expand-lg {
+    background-image: none;
+    background-color: var(--darkest);
+}
+
+.navbar-right {
+    position: absolute;
+    right : 10;
+    top : 0;
+}
+
+body {
+    padding : 0;
+    margin : 0;
+    background-color: var(--darker);
+}
+
+.content-container {
+    align-items : center;
+    text-align : center;
+    justify-content : center;
+    display : flex;
+    flex-direction: column;
+    min-height : 90%;
+    background-color: var(--darker);
+    padding-bottom : 50px;
+}
+
+.input-parameters {
+    align-items: center;
+    text-align: center;
+    min-width : 80%;
+    border-radius: 5px;
+    color : var(--light);
+    border : 5px solid var(--darkest);
+}
+
+input[type=radio] {
+    display:none;
+    margin:10px;
+}
+
+input[type=radio] + label {
+    display:inline-block;
+    margin:-2px;
+    padding: 4px 12px;
+    background-color: var(--dark);
+    border-color: var(--light);
+    margin : 10px;
+}
+
+input[type=radio]:checked + label {
+    background-image: none;
+    background-color:var(--green);
+}
+
+.input-info {
+    margin : 10px 20px 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-info div {
+    padding : 10px;
+    margin-top : 10px;
+    margin-bottom: 10px;
+}
+
+input[type=radio] {
+    width: 100%;
+    height : 1.25rem;
+}
+
+.preload-random-flight-div {
+    visibility: hidden;
+    height : 0;
+}
+
+.random-flight-div {
+    margin : 30px;
+    min-height : 100%;
+    width : 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display : flex;
+    flex-wrap: wrap;
+    height : auto;
+    background-color: var(--darker);
+    color : var(--light);
+}
+
+.fa-plane-departure {
+    color : #bb0a1e;
+}
+
+.fa-earth-americas {
+    color : darkblue;
+}
+
+.fa-plane-arrival {
+    color : #bb0a1e
+}
+
+#random-flight-button {
+    font-size: 2rem;
+    padding : 10px;
+    color : var(--light);
+    border-radius: 5px;
+    border : none;
+    width : 90%;
+    background-color: var(--dark);
+}
+
+p {
+    font-weight : bold;
+    padding-bottom : 10px;
+}
+
+span {
+    font-size : 1rem;
+    font-weight: normal;
+    margin-bottom : 20px;
+}
+
+#departure-div {
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin : 10px;
+    padding : 10px 30px 10px 30px;
+    min-height : 70%;
+    border : 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+#flight-info-div {
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin : 10px;
+    padding : 10px 30px 10px 30px;
+    min-height : 70%;
+    border : 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+hr {
+    background-color : var(--green);
+    width : 80%;
+}
+
+#destination-div {
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin : 10px;
+    padding : 10px 30px 10px 30px;
+    min-height : 70%;
+    border : 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+/*Loading Screen from: https://loading.io/css/*/
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #fff;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes lds-ellipsis3 {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+@keyframes lds-ellipsis2 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(24px, 0);
+    }
+}
